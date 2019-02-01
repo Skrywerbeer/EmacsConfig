@@ -5,19 +5,24 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(asm-comment-char 64)
  '(company-idle-delay 0.25)
- '(custom-enabled-themes (quote (misterioso)))
+ '(custom-enabled-themes (quote (tsdh-dark)))
  '(custom-safe-themes
    (quote
-    ("84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "c74e83f8aa4c78a121b52146eadb792c9facc5b1f02c917e3dbb454fca931223" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
+    ("b9e9ba5aeedcc5ba8be99f1cc9301f6679912910ff92fdf7980929c2fc83ab4d" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "c74e83f8aa4c78a121b52146eadb792c9facc5b1f02c917e3dbb454fca931223" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(minimap-mode t)
  '(minimap-width-fraction 0.05)
  '(minimap-window-location (quote right))
  '(package-selected-packages
    (quote
-    (concurrent ctable dash deferred epc jedi-core powerline python-environment rich-minority company-jedi yasnippet company-go go-mode org modern-cpp-font-lock smart-tabs-mode smart-mode-line-powerline-theme anzu smart-mode-line drag-stuff company-irony irony cmake-ide whitespace-cleanup-mode indent-guide rainbow-delimiters rainbow-mode smartparens company company-c-headers nyan-mode minimap sr-speedbar auto-complete)))
+    (srefactor rust-mode context-coloring bison-mode company-qml qml-mode concurrent ctable dash deferred epc jedi-core powerline python-environment rich-minority company-jedi yasnippet company-go go-mode org modern-cpp-font-lock smart-tabs-mode smart-mode-line-powerline-theme anzu smart-mode-line drag-stuff company-irony irony cmake-ide whitespace-cleanup-mode indent-guide rainbow-delimiters rainbow-mode smartparens company company-c-headers nyan-mode minimap sr-speedbar auto-complete)))
+ '(semantic-c-dependency-system-include-path
+   (quote
+    ("/usr/include" "/opt/microchip/xc8/v2.00/pic/include/")))
  '(sr-speedbar-right-side nil))
  '(sr-speedbar-right-side nil)
 (custom-set-faces
